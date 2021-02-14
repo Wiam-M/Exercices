@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Exercice_Select_option</title>
+</head>
+<body>
+    <form action="/url_adress_Serveur"> 
+        <label for="option">Qu'est ce que vous aimeriez apprendre?</label>
+        <select name="option" id="option">
+            <option disabled selected>Choisisez une option</option>
+            <optgroup label="Langages">
+                <option value="js">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="c++">C++</option>
+            </optgroup>
+            <optgroup label="Outils">
+                <option value="sublime">Sublime Text</option>
+                <option value="code">Visual Studio Code</option>
+                <option value="atom">Atom</option>
+            </optgroup>
+            <optgroup label="Méthodes">
+                <option value="approche">Bonne Approche</option>
+                <option value="apprentissage">Apprentissage actif</option>
+                <option value="formateur">Aide d'un formateur</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>

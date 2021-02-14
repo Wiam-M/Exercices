@@ -1,0 +1,12 @@
+table {
+    background-color: bisque;
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+th, td{
+    border: 1px solid;
+    padding: 10px;
+}

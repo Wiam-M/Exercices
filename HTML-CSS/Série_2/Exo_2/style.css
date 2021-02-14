@@ -1,0 +1,25 @@
+form{
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+select{
+    height: 40px;
+    border: 1px solid rgb(24, 23, 17);
+    border-radius: 5px;
+    box-shadow: 5px 4px rgb(121, 133, 146);
+    background-color: darkgray;
+    cursor: pointer;
+}
+select:hover{
+    transform: scale(1.5);
+}
+label{
+    display: block;
+}
+label, select{
+    margin-bottom: 10px;
+    width: 30%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
