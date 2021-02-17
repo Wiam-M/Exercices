@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+body{
+    width: 90%;
+    margin: 5% auto;
+    line-height: 22px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 30%;
+    height: 1300px;
+    background: linear-gradient(#293f50,#648880);
+}
+.left{
+    color: aliceblue;
+    padding: 5%;
+}
+.image{
+    margin:5% 15% 0% 15%;
+    border: 3px solid aliceblue;
+    border-radius: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em #0a1014, 0 0 0.5em#090d11;
+}
+h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white; 
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.outils{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    line-height: 3em;
+    margin-top: -15%;
+}
+.outils ul li{
+    list-style-type: none;
+}
+.padding{
+    padding-left: 0%;
+    
+}
+.droit{
+    width: 60%;
+    height: 1000px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.email{
+    list-style-image: url('///home/malek/T%C3%A9l%C3%A9chargements/email.png');
+}
+.email a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;   
+}
+.tel{
+    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/telephone2.png');
+}
+.tel a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.position{
+    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/adresse3.png');
+}
+.position a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.linkdin{
+    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/linkedin(1).png');
+}
+.linkdin a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.certif{
+    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/c(1).png');
+}
+.certif a{
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 2%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+article{
+    border-bottom:1px solid black ;
+}
+
+.formation{
+    display: flex;
+}
